@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Юрков А.М.</title>
+<!-- Подключаем шрифт -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+<!-- Подключаем иконку -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+<!-- Подключаем файл со стилями -->
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header class="header">
+    <a class="header__logo logo" href="#">Сайт Александра Михайловича Юркова</a>
+  </header>
+  <div class="hero">
+    <div class="container hero">
+      <div class="hero__about">
+        <h1 class="hero__title">
+          Веб-разработчик
+        </h1>
+        <h2 class="hero__subtitle">
+          Александр Юрков
+        </h2>
+        <p class="hero__desciption">
+          Привет, я занимаюсь версткой адаптивных сайтов. <span id="dots">...</span><span id="more"> А также активно изучаю js,html,css и английский язык </span>
+        </p>
+        
+        <button onclick="myreadMoreFunction()" id="Btn">Показать больше</button>
+
+        <div class="hero__links">
+          <a class="hero__link" href="#">
+            <i class='bx bxl-telegram'></i>
+          </a>
+          <a class="hero__link" href="#">
+            <i class='bx bxl-vk' ></i>
+          </a>
+        </div>
+      </div>
+      <div class="hero__box">
+        <img class="hero__box-img" src="2.png" alt="man">
+      </div>
+    </div>
+  </div>
+
+  
+  <script src="script.js"></script>
+  
+</body>
+</html>
